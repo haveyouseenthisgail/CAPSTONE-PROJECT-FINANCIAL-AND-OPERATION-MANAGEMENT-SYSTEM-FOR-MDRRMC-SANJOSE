@@ -1,0 +1,171 @@
+.grid {
+  display: grid;
+  grid-template-rows: auto;
+}
+ .gp--1{
+  gap: 1rem;
+ }
+ .gp--2{
+  gap: 2rem;
+ }
+.grid--1 {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.grid--2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid--6 {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.grid--20-80 {
+  grid-template-columns: 20% auto;
+}
+
+.grid--25-75 {
+  grid-template-columns: 25% auto;
+}
+
+.grid--30-70 {
+  grid-template-columns: 30% auto;
+}
+
+.grid--35-65 {
+  grid-template-columns: 35% auto;
+}
+
+.grid--40-60 {
+  grid-template-columns: 40% auto;
+}
+
+.grid--45-55 {
+  grid-template-columns: 45% auto;
+}
+
+.grid--50-50 {
+  grid-template-columns: 50% auto;
+}
+
+.grid--55-45 {
+  grid-template-columns: 55% auto;
+}
+
+.grid--60-40 {
+  grid-template-columns: 60% auto;
+}
+
+.grid--65-35 {
+  grid-template-columns: 65% auto;
+}
+
+.grid--70-30 {
+  grid-template-columns: 70% auto;
+}
+
+.grid--75-25 {
+  grid-template-columns: 75% auto;
+}
+.grid--78-22 {
+  grid-template-columns: 78% auto;
+}
+.grid--80-20 {
+  grid-template-columns: 80% auto;
+}
+
+.grid-align--start {
+  align-items: start;
+}
+
+.grid-align--center {
+  align-items: center;
+}
+
+.grid-align--end {
+  align-items: end;
+}
+
+.grid-align-self--start {
+  align-self: start;
+}
+
+.grid-align-self--center {
+  align-self: center;
+}
+
+.grid-align-self--end {
+  align-self: end;
+}
+
+.grid-justify--start {
+  justify-items: start;
+}
+
+.grid-justify--center {
+  justify-items: center;
+}
+
+.grid-justify-self--end {
+  justify-self: end;
+}
+
+.grid-justify-self--start {
+  justify-self: start;
+}
+
+.grid-justify-self--center {
+  justify-self: center;
+}
+
+
+.grid--flex{
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+}
+@media screen and (max-width: 1024px) {
+  .grid--3,
+  .grid--5,
+  .grid--6,
+  .grid--40-60,
+  .grid--45-55,
+  .grid--50-50,
+  .grid--55-45,
+  .grid--60-40 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .grid--2,
+  .grid--3,
+  .grid--4,
+  .grid--5,
+  .grid--6,
+  .grid--20-80,
+  .grid--25-75,
+  .grid--30-70,
+  .grid--35-65,
+  .grid--40-60,
+  .grid--45-55,
+  .grid--50-50,
+  .grid--55-45,
+  .grid--60-40,
+  .grid--65-35,
+  .grid--70-30,
+  .grid--75-25,
+  .grid--80-20 {
+    grid-template-columns: 1fr;
+  }
+}

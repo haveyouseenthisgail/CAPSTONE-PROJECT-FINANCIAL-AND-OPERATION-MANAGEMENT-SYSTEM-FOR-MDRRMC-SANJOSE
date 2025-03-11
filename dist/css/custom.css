@@ -1,0 +1,85 @@
+.main_wrapper {
+  background-color: #fff;
+  padding-left: 4.5rem;
+}
+.main_wrapper p,
+input {
+  margin: unset;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+}
+.main_wrapper .dv_head {
+  margin: unset;
+  font-size: 16pt;
+}
+.main_wrapper input {
+  width: 100%;
+  border: unset;
+  outline: 0;
+  background-color: #00000021;
+}
+.underline {
+  display: inline-block;
+  border-bottom: 1.5px solid #000;
+  width: 26rem;
+}
+.main_wrapper .x33 input {
+  width: 63%;
+}
+.main_wrapper .x37 input {
+  width: 74%;
+}
+.main_wrapper .x38 input {
+  width: 54%;
+}
+.main_wrapper .cafoa__inputs input {
+  width: 49%;
+}
+.main_wrapper .x164 input,
+.x63 input {
+  width: 53%;
+}
+.main_wrapper .x146 input {
+  width: 72%;
+}
+.main_wrapper .x139 input {
+  width: 16rem;
+}
+.main_wrapper .a__field {
+  border: 1px solid #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+  font-weight: 100;
+  margin-top: unset;
+}
+.main_wrapper .particulars__area {
+  background-color: #00000021;
+  resize: none;
+  width: 96%;
+  height: 15rem;
+  border: unset;
+  outline: 0;
+}
+.x38 p,
+.cafoa__inputs p,
+.x38 input,
+.cafoa__inputs input {
+  font-size: 10pt;
+}
+.main_wrapper .payee__field,
+.main_wrapper .address__field {
+  width: 99%;
+}
+.main_wrapper .center__field {
+  width: 95%;
+}
+.main_wrapper .a__position {
+  border-left: 2px solid #000;
+}
+.main_wrapper .b__position
+.c__position{
+  border-left: 1px solid#000;
+}
+.select2-container--default.select2-selection--multiple {
+  border: 1px solid #fff !important;
+}
